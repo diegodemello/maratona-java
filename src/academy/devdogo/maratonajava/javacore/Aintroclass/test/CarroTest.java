@@ -15,6 +15,8 @@ public class CarroTest {
         carro2.modelo = "R 450 6x2";
         carro2.ano = 2019;
 
+        carro1 = carro2;
+
         System.out.println("Primeiro carro é da " + carro1.nome + ", modelo " + carro1.modelo + " de " + carro1.ano);
         System.out.println("Primeiro carro é da " + carro2.nome + ", modelo " + carro2.modelo + " de " + carro2.ano);
     }
