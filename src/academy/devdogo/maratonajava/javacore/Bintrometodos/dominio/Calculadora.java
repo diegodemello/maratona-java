@@ -63,7 +63,21 @@ public class Calculadora {
     // Retornar true se for
     // False se não for
 
-    // Calculadora que recebe uma lista retorna toda a lista x2.
+    public boolean numeroPrimo(int num){
+        int qdiv = 0;
+
+        for(int i = 1; i <= num; i++){
+            if(num % i == 0){
+                qdiv += 1;
+            }
+        }
+        if(qdiv == 2){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
 
     public void listaDuplicada(int[] numeros){
         for(int i = 0; i < numeros.length; i++){
