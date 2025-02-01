@@ -10,9 +10,7 @@ public class FuncionarioTest {
 
         funcionario.nome = "Diego";
         funcionario.idade = 20;
-        funcionario.salarios[0] = 1306.15;
-        funcionario.salarios[1] = 1404.04;
-        funcionario.salarios[2] = 2415.58;
+        funcionario.salarios = new double[]{1404, 1680, 17203, 2550, 4800};
 
         funcionario.imprimirDados();
         media.mediaSalarial(funcionario);
