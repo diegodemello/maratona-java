@@ -58,4 +58,17 @@ public class Calculadora {
         }
         System.out.println(soma);
     }
+
+    // Validar número primo ou não
+    // Retornar true se for
+    // False se não for
+
+    // Calculadora que recebe uma lista retorna toda a lista x2.
+
+    public void listaDuplicada(int[] numeros){
+        for(int i = 0; i < numeros.length; i++){
+            numeros[i] *= 2;
+            System.out.println(numeros[i]);
+        }
+    }
 }
