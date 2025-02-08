@@ -5,6 +5,10 @@ public class Pessoa {
     protected String cpf;
     protected Endereco endereco;
 
+    public Pessoa(String nome) {
+        this.nome = nome;
+    }
+
     public String getNome() {
         return nome;
     }
