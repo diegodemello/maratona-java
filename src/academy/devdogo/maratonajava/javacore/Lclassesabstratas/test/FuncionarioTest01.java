@@ -10,8 +10,13 @@ public class FuncionarioTest01 {
         Gerente gerente = new Gerente("Giovane", 18000);
         Comercial comercial = new Comercial("Nelton", 27000);
         Aprendiz aprendiz = new Aprendiz("Diego", 1518);
+
         System.out.println(gerente);
         System.out.println(comercial);
         System.out.println(aprendiz);
+
+        gerente.imprime();
+        comercial.imprime();
+        aprendiz.imprime();
     }
 }
